@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  /* Colores principales */
+
+  --color-background: #f9f9f9;
+  --color-on-background: #1a1c1c;
+
+  --color-primary: #26170c;
+  --color-on-primary: #ffffff;
+
+  --color-primary-container: #3d2b1f;
+  --color-on-primary-container: #ac9181;
+
+  --color-secondary: #775a19;
+  --color-on-secondary: #ffffff;
+
+  --color-secondary-fixed: #ffdea5;
+  --color-secondary-fixed-dim: #e9c176;
+  --color-on-secondary-fixed: #261900;
+  --color-on-secondary-fixed-variant: #5d4201;
+
+  --color-tertiary: #1a1a1a;
+  --color-tertiary-container: #2f2f2f;
+  --color-on-tertiary-container: #989696;
+
+  --color-surface: #f9f9f9;
+  --color-surface-bright: #f9f9f9;
+  --color-surface-container: #eeeeee;
+  --color-surface-container-low: #f3f3f4;
+  --color-surface-container-high: #e8e8e8;
+  --color-surface-container-highest: #e2e2e2;
+  --color-surface-container-lowest: #ffffff;
+
+  --color-on-surface: #1a1c1c;
+  --color-on-surface-variant: #4f453f;
+
+  --color-outline: #81756e;
+  --color-outline-variant: #d2c4bc;
+
+  /* Fuentes */
+
+  --font-body-md: "Hanken Grotesk", sans-serif;
+  --font-body-lg: "Hanken Grotesk", sans-serif;
+  --font-label-sm: "Hanken Grotesk", sans-serif;
+  --font-label-lg: "Hanken Grotesk", sans-serif;
+
+  --font-headline-md: "Libre Caslon Text", serif;
+  --font-headline-lg: "Libre Caslon Text", serif;
+  --font-headline-lg-mobile: "Libre Caslon Text", serif;
+  --font-display-lg: "Libre Caslon Text", serif;
+
+  /* Espaciados personalizados */
+
+  --spacing-margin-mobile: 20px;
+  --spacing-margin-desktop: 64px;
+  --spacing-gutter: 24px;
+  --spacing-section-gap: 120px;
+  --spacing-container-max: 1280px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  background-color: #3d2b1f;
+  color: #ac9181;
+
+  font-family: "Hanken Grotesk", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
