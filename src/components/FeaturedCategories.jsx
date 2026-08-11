@@ -1,20 +1,24 @@
+import perfumesImg from "../assets/categories/perfumes.png";
+import estuchesImg from "../assets/categories/estuches.png";
+import perfumerosImg from "../assets/categories/perfumeros.png";
+
 const categories = [
   {
     name: "Perfumes",
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBPNt_xKjviTfR0UBZcrGQGyEIKgxsNzoi90CZpifFOsjMQZNB87DthNJEi91CHOiGnKPLrSLsHFe_9HjQPIAINVpaR7sn2ewqEw_k1iRiCjEv-IbHs4_h1bAY0IQBUn9ztw1yM0qLY7VwusknRevWqVIMh563DbPKzQVDNYEhXjXntnE_-sVAjeZojxM7jLrAdKqwmFUrDSCaHdA8vWFCZ1IdPrquBfNrWmNBFipTApWiPeMVMNk4",
+      perfumesImg,
   },
   {
     name: "Estuches",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMMypcdRxlzwAPHRnnpudoDP_H6PUXCBSvsXCyIMGke5YkoTMJYLVraktkSPswbuSQz677ruNW2sKu9KYgRgfPZ9dTcWUYPXqRo5hCUPjMKLOhzYbHY0G5TTOQ4qUNpWGKkObbXXNzAX2bN8ZhcBC3xeiEjgx1DfMyN4BHo481jAgvL0QaO30kozE6dG2H-mp6M5S51Yxk29q5Ejpmvnm09MH0kYUz2ffSLvrZ_rrzdtTbB1QH4nQ",
+    image: estuchesImg,
   },
   {
     name: "Perfumeros",
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAB7QGJNxeOXpaTaaCLaM4AqVTtwwT0AvOd_fTJ1hkDFpY1RzRf0ydpJNfc7JTc1BPlNNqh2LMZNy0WIExMJ6BO-A5PBMjx_U_DKigLTzUVd5p_Pt6RY0FJrDzfEcO-wPzJdcb_NHvlz3u30YHSNYRG3vdcm5F21_dVlxXI8Wq_0JGmL-d1lMqwL3kWj3DPWiM2m0JhCwWMxj6XDmA9ZPiOszKJqX92-4h-UTzERzShneZEm5c6_zM",
+      perfumerosImg,
   },
 ];
+
 
 export default function FeaturedCategories() {
   return (
