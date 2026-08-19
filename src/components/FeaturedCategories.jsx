@@ -1,6 +1,6 @@
-import perfumesImg from "../assets/categories/perfumes.png";
-import estuchesImg from "../assets/categories/estuches.png";
-import perfumerosImg from "../assets/categories/perfumeros.png";
+import perfumesImg from "../assets/categories/perfumes.webp";
+import estuchesImg from "../assets/categories/estuches.webp";
+import perfumerosImg from "../assets/categories/perfumeros.webp";
 
 const categories = [
   {

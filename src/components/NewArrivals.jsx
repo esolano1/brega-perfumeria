@@ -3,49 +3,49 @@ const products = [
     brand: "Dolce & Gabbana",
     name: "D&G Pour Homme EDT",
     price: "Desde $ 1150.00",
-    image: `${import.meta.env.BASE_URL}images/products/dg-pour-homme.png`,
+    image: `${import.meta.env.BASE_URL}images/products/dg-pour-homme.webp`,
   },
   {
     brand: "Giorgio Armani",
     name: "Acqua di Giò EDT",
     price: "Desde $ 1500.00",
-    image: `${import.meta.env.BASE_URL}images/products/adg-edt.png`,
+    image: `${import.meta.env.BASE_URL}images/products/adg-edt.webp`,
   },
   {
     brand: "Bvlgari",
     name: "Bvlgari Man in Black EDP",
     price: "Desde $ 2400.00",
-    image: `${import.meta.env.BASE_URL}images/products/bvlgari-man-in-black-edp.png`,
+    image: `${import.meta.env.BASE_URL}images/products/bvlgari-man-in-black-edp.webp`,
   },
   {
     brand: "Versace",
     name: "Eros Flame EDP",
     price: "Desde $ 1600.00",
-    image: `${import.meta.env.BASE_URL}images/products/eros-flame-edp.png`,
+    image: `${import.meta.env.BASE_URL}images/products/eros-flame-edp.webp`,
   },
       {
     brand: "Jean Paul Gaultier",
     name: "Le Beau Le Parfum",
     price: "Desde $ 2700.00",
-    image: `${import.meta.env.BASE_URL}images/products/le-beau-le-parfum.png`,
+    image: `${import.meta.env.BASE_URL}images/products/le-beau-le-parfum.webp`,
   },
   {
     brand: "Prada",
     name: "Prada L'homme EDT",
     price: "Desde $ 2200.00",
-    image: `${import.meta.env.BASE_URL}images/products/prada-lhomme-edt.png`,
+    image: `${import.meta.env.BASE_URL}images/products/prada-lhomme-edt.webp`,
   },
   {
     brand: "Creed",
     name: "Aventus",
     price: "Desde $ 6600.00",
-    image: `${import.meta.env.BASE_URL}images/products/aventus.png`,
+    image: `${import.meta.env.BASE_URL}images/products/aventus.webp`,
   },
   {
     brand: "Rasasi",
     name: "Hawas ICE",
     price: "Desde $ 1600.00",
-    image: `${import.meta.env.BASE_URL}images/products/hawas-ice.png`,
+    image: `${import.meta.env.BASE_URL}images/products/hawas-ice.webp`,
   }
   
 ];
