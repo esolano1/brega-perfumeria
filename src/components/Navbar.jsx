@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,18 +9,17 @@ export default function Navbar() {
       <div className="mx-auto flex h-20 max-w-[1440px] items-center gap-8 px-5 md:px-10 lg:px-16">
 
         {/* Logo */}
-        <a
-          href="#"
-          className="flex shrink-0 items-center gap-2 whitespace-nowrap font-headline text-xl tracking-tight text-primary md:text-2xl"
-        >
-          <img
-            src={`${import.meta.env.BASE_URL}images/logo.jpg`}
-            alt="Logo de Brega Perfumería"
-            className="h-10 w-auto"
-          />
-
-          <span>Brega Perfumería</span>
-        </a>
+        <Link
+        to="/"
+        className="flex shrink-0 items-center gap-2 whitespace-nowrap font-headline text-xl tracking-tight text-primary md:text-2xl"
+>
+       <img
+       src={`${import.meta.env.BASE_URL}images/logo.jpg`}
+       alt="Logo de Brega Perfumería"
+       className="h-10 w-auto"
+      />
+      Brega Perfumería
+     </Link>
 
         {/* Navegación desktop */}
         <div className="hidden flex-1 items-center justify-center gap-8 md:flex">
@@ -51,12 +51,20 @@ export default function Navbar() {
             Estuches
           </a>
 
-          <a
-            href="#perfumeros"
+          <Link
+            to="/contact"
             className="text-xs font-semibold uppercase tracking-[0.12em] text-on-surface-variant transition-colors duration-300 hover:text-primary"
           >
-            Perfumeros
+            Contacto
+          </Link>
+
+ {/*         <a
+            href={`${import.meta.env.BASE_URL}contact`}
+            className="text-xs font-semibold uppercase tracking-[0.12em] text-on-surface-variant transition-colors duration-300 hover:text-primary"
+          >
+            Contacto
           </a>
+*/}
         </div>
 
         {/* Acciones */}
