@@ -157,13 +157,12 @@ export default function Navbar() {
               Estuches
             </a>
 
-            <a
-              href="#perfumeros"
-              onClick={() => setMenuOpen(false)}
-              className="text-sm font-semibold uppercase tracking-[0.12em] text-on-surface-variant"
-            >
-              Perfumeros
-            </a>
+          <Link
+            to="/contact"
+            className="text-xs font-semibold uppercase tracking-[0.12em] text-on-surface-variant transition-colors duration-300 hover:text-primary"
+          >
+            Contacto
+          </Link>
 
             {/* Buscador móvil */}
             <div className="mt-2 flex items-center border-b border-outline-variant/50 pb-2">
