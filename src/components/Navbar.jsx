@@ -37,12 +37,15 @@ export default function Navbar() {
             Marcas
           </a>
 
-          <a
-            href="#perfumes"
+
+
+          <Link
+            to="/products"
             className="text-xs font-semibold uppercase tracking-[0.12em] text-on-surface-variant transition-colors duration-300 hover:text-primary"
           >
             Perfumes
-          </a>
+          </Link>
+
 
           <a
             href="#estuches"
@@ -141,13 +144,13 @@ export default function Navbar() {
               Marcas
             </a>
 
-            <a
-              href="#perfumes"
+            <Link
+              to="/products"
               onClick={() => setMenuOpen(false)}
               className="text-sm font-semibold uppercase tracking-[0.12em] text-on-surface-variant"
             >
               Perfumes
-            </a>
+            </Link>
 
             <a
               href="#estuches"
