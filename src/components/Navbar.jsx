@@ -21,7 +21,7 @@ export default function Navbar() {
       Brega Perfumería
      </Link>
 
-        {/* Navegación desktop */}
+{/* Navegación desktop */}
         <div className="hidden flex-1 items-center justify-center gap-8 md:flex">
           <a
             href="#catalogo"
@@ -123,7 +123,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Navegación móvil */}
+{/* Navegación móvil */}
       {menuOpen && (
         <div className="border-t border-outline-variant/30 bg-background px-5 py-6 md:hidden">
           <div className="flex flex-col gap-5">
