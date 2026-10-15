@@ -8,7 +8,7 @@ export default function Products() {
     <>
       <Navbar />
 
-      <main>
+      <main className="pt-20">
         {/* Título Catálogo */}
         {/* Ordenar por */}
         {/* Filtros */}
